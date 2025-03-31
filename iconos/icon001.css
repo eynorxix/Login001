@@ -1,0 +1,20 @@
+.video-decorativo {
+    width: 200px; /* Ajusta el ancho del video */
+    height: auto; /* Mantén las proporciones */
+    display: block; /* Centra el video */
+    margin: 0 auto 20px; /* Centra y añade un margen inferior */
+    border-radius: 20px; /* Bordes redondeados opcionales */
+}
+
+/* Si deseas modificarlo a un tamaño más pequeño */
+.video-decorativo {
+    width: 60px; /* Ahora usa "px" correctamente */
+    height: auto; /* Mantén las proporciones */
+}
+
+.video-decorativo {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%);
+}

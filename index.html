@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url('imagenes/wallpaper001.png'); /* Ruta de tu imagen */
+            background-size: cover; /* La imagen cubrirá todo el fondo */
+            background-repeat: no-repeat; /* Evita que se repita */
+            background-position: center; /* Centra la imagen */
+        }
+
+        /* Estilo para centrar y reducir el formulario */
+        form {
+            background-color: #140e0e93; /* Fondo oscuro para el cuadro */
+            padding: 70px;
+            border-radius: 34px;
+            box-shadow: 0 4px 8px rgba(148, 21, 21, 0.5);
+            width: 400px; /* Ajusta el ancho del formulario */
+            text-align: center;
+        }
+
+        /* Títulos */
+        h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    </style>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="archivoscss/buttonlogin.css">
+    <link rel="stylesheet" href="archivoscss/textiput.css">
+    <video class="video-decorativo" autoplay loop muted>
+        <source src="imagenes/photo_2025-03-30_22-19-12.mp4" type="video/mp4">
+    </video>
+    <link rel="stylesheet" href="iconos/icon001.css">
+    
+
+
+
+
+ 
+</head>
+<body>
+    
+    <form>
+        
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario">
+        <br><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+        <br><br>
+        <button type="registrar">Registrar</button>
+        <br>
+        <br>
+        <button type="iniciarsesion">Iniciar Sesión</button>
+        <br>
+        <br>
+        <button type="sinsesion">Entrar sin iniciar Sesión</button>
+    </form>
+    
+</body>
+</html>
